@@ -392,3 +392,25 @@ footer::before {
   color: #acbac9;
   padding: 2em 0;
 }
+
+
+/* mobile nav menu slylization */
+.nav__burger {
+  display: none;
+}
+.nav__burger div{
+  width: 25px;
+  height: 3px;
+  background-color: #29323d;
+  margin: 5px;
+  transition: all .3s ease;
+}
+.close #line1 {
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.close #line2 {
+  opacity: 0;
+}
+.close #line3 {
+  transform: rotate(45deg) translate(-5px,-6px);
+}

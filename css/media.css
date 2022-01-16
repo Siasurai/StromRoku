@@ -1,0 +1,117 @@
+/* For iPad Air */
+@media (max-width: 850px) {
+  .header__content {
+    height: 80%;
+  }
+  .content__text {
+    width: 80%;
+    font-size: 2.5em;
+    text-align: center;
+}
+  .slider__img {
+  height: 35vh;
+}
+}
+
+/* For iPad mini */
+@media screen and (max-width:770px) {
+ .header__content {
+    height: 90%;
+  }
+ nav {
+  padding: 2em 1em 2em 1em;
+ }
+ .nav_sticky {
+  background: linear-gradient(180deg, #E6E6E6 0%, rgba(220, 220, 220, 0.88) 41.78%, rgba(214, 214, 214, 0.7) 68.28%, rgba(196, 196, 196, 0) 100%);
+  padding: 2em 1em 1em 1em;
+ }
+ .nav__item {
+  justify-content: space-evenly;
+  width: 50%;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 4em;
+  height: 97vh;
+  background: linear-gradient(to top, #E6E6E6 0%, rgba(220, 220, 220, 0.88) 41.78%, rgba(214, 214, 214, 0.7) 68.28%, rgba(196, 196, 196, 0) 100%);
+  transform: translateX(100%);
+  transition: transform .4s ease-in;
+ }
+ .burger__active {
+  transform: translateX(0%);
+}
+ .nav__item a {
+   text-transform: uppercase;
+   font-size: 1.15em;
+   color: #29323d;
+   background-color: #e6e6e6e8;
+ }
+ .nav__burger {
+   display: block;
+   cursor: pointer;
+ }
+ .support__cardholder {
+  margin: 5em auto;
+  flex-direction: column;
+  align-items: center;
+ }
+ .support__card {
+   margin-left: 0;
+   width: 22em;
+   margin-top: 3em;
+ }
+}
+@media screen and (max-width:650px) {
+  .about__content{
+    height: 100%;
+    padding: 2em 0;
+  }
+  .about__info {
+    padding-bottom: 2em;
+  }
+  .slider__img {
+    height: 56vh;
+}
+  .arrow_right,
+  .arrow_left {
+    top: 11em;
+}
+  .slider__card h2 {
+    bottom: 1.6em;
+}
+}
+@media screen and (max-width:550px) {
+  .slider__card h2 {
+    bottom: 2.6em;
+    left: 2em;
+}
+  .contact__conteiner h3{
+    text-align: center;
+  }
+  .contact__content{
+    flex-direction: column;
+    align-items: center;
+    height: 15em;
+  }
+}
+@media screen and (max-width:400px) {
+  header {
+    height: 90vh;
+  }
+  .content__title h1 {
+    font-size: 2.7em;
+  }
+  .slider__card:nth-child(1),
+  .slider__card:nth-child(2),
+  .slider__card:nth-child(3) {
+    background-size: 40em;
+  }
+  .slider__img {
+    height: 40vh;
+  }
+  .slider__card h2 {
+    bottom: 1em;
+    left: 1em;
+    font-size: 1.6em;
+  }
+}

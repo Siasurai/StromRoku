@@ -68,3 +68,19 @@ mounth.onclick = function(){
   once.style.color = "#29323d"
   mounth.style.color = "#fff"
 }
+
+
+//burger menu 
+
+var mobileNav = () => {
+  var burger =  document.querySelector('.nav__burger');
+  var nav = document.querySelector('.nav__item');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('burger__active');
+
+    burger.classList.toggle('close');
+
+  })
+}
+mobileNav();
